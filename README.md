@@ -9,11 +9,7 @@
 
 ## About the project 
 
-<<<<<<< HEAD
-Still at development (v1.0.2.dev).
-=======
-Still at development (v1.0.2.dev).
->>>>>>> e2e24c12bb9f437ec7dd6924228cf55227470756
+Still at development (v1.0.3.dev).
 
 ## License
 
