@@ -45,7 +45,7 @@ Coded by www.creative-tim.com
           <!-- <p>CT</p> -->
         </a>
         <a href="https://www.creative-tim.com" class="simple-text logo-normal">
-          João Couto
+          Paper Dashboard
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
           </div> -->
@@ -54,7 +54,7 @@ Coded by www.creative-tim.com
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li>
-            <a href="./dashboard.html">
+            <a href="{{asset('dashboard')}}">
               <i class="nc-icon nc-bank"></i>
               <p>Dashboard</p>
             </a>
@@ -84,9 +84,9 @@ Coded by www.creative-tim.com
             </a>
           </li>
           <li class="active ">
-            <a href="./tables.html">
+            <a href="{{asset('register')}}">
               <i class="nc-icon nc-tile-56"></i>
-              <p>Table List</p>
+              <p>User List</p>
             </a>
           </li>
           <li>
@@ -116,7 +116,7 @@ Coded by www.creative-tim.com
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="javascript:;">Paper Dashboard 2</a>
+            <!--<a class="navbar-brand" href="javascript:;">Paper Dashboard 2</a>-->
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>

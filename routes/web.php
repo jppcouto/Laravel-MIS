@@ -28,4 +28,6 @@ Route::group(['middleware' => ['auth','admin']], function () {
         return view('admin.dash');
     });
 
+    Route::get('/register', [App\Http\Controllers\Admin\DashController::class, 'register']);
+
 });

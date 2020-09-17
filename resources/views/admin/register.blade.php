@@ -19,118 +19,30 @@
           <div class="table-responsive">
             <table class="table">
               <thead class=" text-primary">
-                <th>
-                  Name
-                </th>
-                <th>
-                  Phone
-                </th>
-                <th>
-                  Email
-                </th>
-                <th class="text-right">
-                  EDIT
-                </th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Usertype</th>
+                <th class="text-right">Edit</th>
+                <th class="text-right">Delete</th>
               </thead>
               <tbody>
+                @foreach ($users as $u)
+                    
+
                 <tr>
-                  <td>
-                    Dakota Rice
-                  </td>
-                  <td>
-                    Niger
-                  </td>
-                  <td>
-                    Oud-Turnhout
+                  <td>{{$u->name}}</td>
+                  <td>{{$u->phone}}</td>
+                  <td>{{$u->email}}</td>
+                  <td>{{$u->usertype}}</td>
+                  <td class="text-right">
+                    <a href="" class="btn btn-success">EDIT</a>
                   </td>
                   <td class="text-right">
-                    $36,738
+                    <a href="" class="btn btn-danger">DELETE</a>
                   </td>
                 </tr>
-                <tr>
-                  <td>
-                    Minerva Hooper
-                  </td>
-                  <td>
-                    Curaçao
-                  </td>
-                  <td>
-                    Sinaai-Waas
-                  </td>
-                  <td class="text-right">
-                    $23,789
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Sage Rodriguez
-                  </td>
-                  <td>
-                    Netherlands
-                  </td>
-                  <td>
-                    Baileux
-                  </td>
-                  <td class="text-right">
-                    $56,142
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Philip Chaney
-                  </td>
-                  <td>
-                    Korea, South
-                  </td>
-                  <td>
-                    Overland Park
-                  </td>
-                  <td class="text-right">
-                    $38,735
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Doris Greene
-                  </td>
-                  <td>
-                    Malawi
-                  </td>
-                  <td>
-                    Feldkirchen in Kärnten
-                  </td>
-                  <td class="text-right">
-                    $63,542
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Mason Porter
-                  </td>
-                  <td>
-                    Chile
-                  </td>
-                  <td>
-                    Gloucester
-                  </td>
-                  <td class="text-right">
-                    $78,615
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Jon Porter
-                  </td>
-                  <td>
-                    Portugal
-                  </td>
-                  <td>
-                    Gloucester
-                  </td>
-                  <td class="text-right">
-                    $98,615
-                  </td>
-                </tr>
+                @endforeach
               </tbody>
             </table>
           </div>
