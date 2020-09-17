@@ -9,7 +9,7 @@
 
 ## About the project 
 
-Still at development (version 1.0.1.dev).
+Still at development (v1.0.1.dev).
 
 ## License
 
