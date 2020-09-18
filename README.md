@@ -9,7 +9,7 @@
 
 ## About the project 
 
-Still at development <div style="font-weight: bold">(v1.0.5.dev)</div>.
+Still at development **(v1.0.5.dev)**.
 
 ## License
 
