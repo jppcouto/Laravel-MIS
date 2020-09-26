@@ -84,7 +84,7 @@ Coded by www.creative-tim.com
             </a>
           </li>
           <li class="active ">
-            <a href="{{asset('register')}}">
+            <a href="{{asset('role-register')}}">
               <i class="nc-icon nc-tile-56"></i>
               <p>User List</p>
             </a>
