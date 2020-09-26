@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Painel de Controlo
+- Dashboard
 @endsection
 
 

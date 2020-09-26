@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Registo
+- User List
 @endsection
 
 
@@ -13,7 +13,7 @@
     <div class="col-md-12">
       <div class="card">
         <div class="card-header">
-          <h4 class="card-title"> Registo</h4>
+          <h4 class="card-title"> User List</h4>
         </div>
         <div class="card-body">
           <div class="table-responsive">
@@ -36,7 +36,7 @@
                   <td>{{$u->email}}</td>
                   <td>{{$u->usertype}}</td>
                   <td class="text-right">
-                    <a href="" class="btn btn-success">EDIT</a>
+                  <a href="/role-edit/{{ $u->id }}" class="btn btn-success">EDIT</a>
                   </td>
                   <td class="text-right">
                     <a href="" class="btn btn-danger">DELETE</a>

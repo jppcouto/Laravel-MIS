@@ -29,8 +29,5 @@ Route::group(['middleware' => ['auth','admin']], function () {
     });
 
     Route::get('/role-register', [App\Http\Controllers\Admin\DashController::class, 'registered']);
-
+    Route::get('/role-edit/{id}', [App\Http\Controllers\Admin\DashController::class, 'edit']);
 });
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

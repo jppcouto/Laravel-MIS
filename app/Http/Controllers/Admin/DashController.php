@@ -13,4 +13,10 @@ class DashController extends Controller
         $users = User::all();
         return view('admin.register')->with('users',$users);
     }
+
+    public function edit(Request $request, $id)
+    {
+        $id = User::findOrFail($id);
+        return view('admin.edit');
+    }
 }
