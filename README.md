@@ -2,7 +2,7 @@
 
 ## About the project 
 
-Laravel MIS is a Management Information System powered by Laravel Framework. The aplication web is still at development (**v1.0.6.dev**).
+Laravel MIS is a Management Information System powered by Laravel Framework. The aplication web is still at development (**v1.0.7.dev**).
 
 ## License
 
